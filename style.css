@@ -1,3 +1,153 @@
 body {
-    background-color: bisque;
-}
+    margin: 0;
+    padding: 0;
+ }
+
+ body * {
+    box-sizing: border-box;
+ }
+
+ .header {
+    max-width: auto;
+    margin: 0 auto;
+    background: #131313;
+   
+ }
+
+ .container_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 92px 22px;
+ }
+
+ .logo_text1 {
+    font-family: 'Nunito Sans'Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #E3B873;
+ }
+
+.nav_item {
+    list-style: none;
+    margin-right: 47px;
+ }
+ #text_home {
+    color: #E3B873;
+ }
+ 
+ .nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+ }
+
+ .a-text {
+    text-decoration: none;
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    color: #FFFFFF;
+ }
+
+ 
+ .phone {
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #E3B873;
+ }
+
+ .button-header {
+    padding: 13px 33px;
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border: 0;
+    outline: 0;
+    border-radius: 2px;
+ }
+
+ .bg1 {
+    background-color: rgba(0, 0, 0, 0.7);
+    background-image: url(./image/bg1.jpg);
+    position: relative;
+    background-size: cover;
+    height: 707px;
+ }
+
+ .overlay1 {
+    position: relative;
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+ }
+ 
+ .title1 {
+    font-family: 'Yeseva One','Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+ }
+
+ .infobox1 {
+    margin-top: 0;
+    padding-left: 134px;
+    padding-top: 194px;
+ }
+ .title2 {
+    font-family: 'Nunito Sans',Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    color: #FFFFFF;
+ }
+
+ .text_Rostov {
+    color: #E3B873;
+ }
+ 
+ .button1_infobox {
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+    border-radius: 2px;
+    border: 0;
+    outline: 0;
+    padding: 19px 42px 21px 42px;
+    margin-right: 20px;
+ }
+ .button2_infobox {
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+    padding: 19px 42px 21px 42px;
+    margin-right: 20px;
+    background: none;
+ }
+
+   
