@@ -167,6 +167,14 @@ body {
     background: none;
  }
 
+
+
+
+
+
+
+
+
  .section {
    max-width: 1440px;
  }  
@@ -201,7 +209,7 @@ body {
    margin-right: 60.5px;
    padding-bottom: 6.6px ;
  }
- 
+
  .town_item a:hover {
    border-bottom: 1px solid #E3B873;
  }
@@ -211,13 +219,90 @@ body {
  }
 
  .main_info2 {
+   margin-top: 45.3px;
    display: flex;
    justify-content: space-between;
  }
 
- .block2 {
+  
+ .image2 {
    width: 679px;
    height: 482px;
-   margin-top: 45px;
+ }
+
+ .title_completed {
+   max-width: 253px;
+   margin: 0;
+   font-family: 'Yeseva One', 'Times New Roman', Times, serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 27px;
+   line-height: 37px;
+   letter-spacing: -0.07em;
+   text-transform: uppercase;
+   color: #E3B873;
  }
  
+ .text-left-box {
+   margin: 0;
+   max-width: 440px;
+   
+ }
+
+ .text-left-box p {
+   font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 27px;
+   color: #FFFFFF;
+ }
+
+ .box-information {
+   display: grid;
+   grid-template-columns: 190px 190px;
+   margin-top: 42px;
+ }
+
+ container h3 {
+   font-family: 'Yeseva One';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 25px;
+   text-transform: uppercase;
+   color: #E3B873;
+   margin: 0;
+   padding: 0;
+ }
+
+ container span {
+   margin-top: 9px;
+   padding: 0;
+   font-family: 'Nunito Sans',Arial, Helvetica, sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 21px;
+   color: #FFFFFF;
+   display: flex;
+   align-items: end;
+ }
+
+ .m2 {
+   font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 21px;
+   color: #FFFFFF;
+   opacity: 0.3;
+ }
+ 
+ .block1 {
+   max-width: 440px;
+  }
+
+  .box-information container {
+   margin-top: 34px;
+  }
