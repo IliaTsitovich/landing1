@@ -7,8 +7,12 @@ body {
     box-sizing: border-box;
  }
 
+ a {
+   text-decoration: none;
+ }
+
  .header {
-    max-width: auto;
+    max-width: 1440px;
     margin: 0 auto;
     background: #131313;
    
@@ -19,6 +23,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 24px 92px 22px;
+    max-width: 1263px;
  }
 
  .logo_text1 {
@@ -35,7 +40,7 @@ body {
     list-style: none;
     margin-right: 47px;
  }
- #text_home {
+ #other_color {
     color: #E3B873;
  }
  
@@ -85,7 +90,6 @@ body {
  }
 
  .bg1 {
-    background-color: rgba(0, 0, 0, 0.7);
     background-image: url(./image/bg1.jpg);
     position: relative;
     background-size: cover;
@@ -111,9 +115,13 @@ body {
 
  .infobox1 {
     margin-top: 0;
-    padding-left: 134px;
     padding-top: 194px;
  }
+
+ .infobox {
+   margin-left: 89px;
+ }
+
  .title2 {
     font-family: 'Nunito Sans',Arial, Helvetica, sans-serif;
     font-style: normal;
@@ -121,6 +129,7 @@ body {
     font-size: 22px;
     line-height: 36px;
     color: #FFFFFF;
+    max-width: 500px;
  }
 
  .text_Rostov {
@@ -158,4 +167,57 @@ body {
     background: none;
  }
 
-   
+ .section {
+   max-width: 1440px;
+ }  
+
+ .bg2 {
+   background: #131313;
+   height: 1074px ;
+ }
+
+ .text-ul-infox2 {
+   margin: 0;
+   display: flex;
+   justify-content: flex-end;
+   list-style: none;
+   font-family: 'Yeseva One';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 19px;
+   text-transform: uppercase;
+   color: #E3B873;
+ }
+
+ .town_item a {
+   font-family: 'Yeseva One', Arial, Helvetica, sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 19px;
+   text-transform: uppercase;
+   color: rgba(255, 255, 255, 0.3);
+   margin-right: 60.5px;
+   padding-bottom: 6.6px ;
+ }
+ 
+ .town_item a:hover {
+   border-bottom: 1px solid #E3B873;
+ }
+
+ .infobox2 {
+   margin: 107px 134px 414px 134px;
+ }
+
+ .main_info2 {
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .block2 {
+   width: 679px;
+   height: 482px;
+   margin-top: 45px;
+ }
+ 
