@@ -22,7 +22,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 24px 92px 22px;
+    padding: 24px 89px 22px 92px;
     max-width: 1263px;
  }
 
