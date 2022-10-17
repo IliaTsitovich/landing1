@@ -10,8 +10,15 @@ body {
  a {
    text-decoration: none;
  }
- @font-family: 'Yeseva One', cursive;
- @font-family: 'Nunito Sans', sans-serif;
+
+  font-face {
+   font-family: 'Yeseva One', cursive;
+  } 
+
+ font-face {
+   font-family: 'Nunito Sans', sans-serif;
+ } 
+
  main {
    background: #131313;
  }
