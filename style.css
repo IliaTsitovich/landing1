@@ -12,10 +12,14 @@ body {
  }
 
  .header {
-    max-width: 1440px;
     margin: 0 auto;
     background: #131313;
-   
+    
+ }
+ .container {
+   max-width: 1440px;
+   margin: 0 auto;
+   max-width: 1440px;
  }
 
  .container_header {
@@ -175,7 +179,6 @@ body {
 
  .bg2 {
    background: #131313;
-   height: 1074px ;
    position: relative;
    z-index: 1;
  }
@@ -211,13 +214,15 @@ body {
  }
 
  .infobox2 {
-   margin: 107px 134px 414px 134px;
+   margin-top: 107px;
+   margin-bottom: 500px;
  }
 
  .main_info2 {
    margin-top: 45.3px;
    display: flex;
    justify-content: space-between;
+   
  }
   
  .image2 {
@@ -320,9 +325,94 @@ body {
    
   .section3 {
    background: #FFFFFF;
-   margin-top: -225px;
    position: relative;
-   z-index: 0;
+   z-index: 2;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: auto;
   }
+
+  .center_title {
+   font-family: 'Yeseva One';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 28px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   margin: 0;
+   padding: 0;
+  }
+  
+  .image_camera {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 12.7px;
+   margin-bottom: 31px;
+  }
+
+  .image_camera img {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-right: 8px;
+  }
+
+  .infobox3 {
+   margin-top: -150px;
+   position: absolute;
+   z-index: 2;
+   display: inline;
+   justify-content: center;
+   align-items: center;
+   max-width: 1440px;
+  }
+
+  .image3 {
+   background-image: url(./image/image3.jpg);
+   background-size: cover;
+   position: relative;
+   z-index: 3;
+   width: 817px;
+   height: 434px;
+   box-shadow: 3px 3px 15px black;
+  }
+  
+  .overlay2 {
+   background-color: rgba(0, 0, 0, 0.7);
+   background-size: cover;
+   width: 817px;
+   height: 434px;
+  }
+
+  .btn_play-video {
+   position: absolute;
+   z-index: 3;
+   width: 85px;
+   height: 85px;
+   background: #E3B873;
+   border: 0;
+   outline: 0;
+   border-radius: 50% 50%;
+   position: absolute;
+   margin: 174px 365px;
+  }
+
+  .btn_play-video img {
+   margin: 28px 29px;
+   }
+
+   .line {
+      margin-top: 62.5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   
+
 
   
