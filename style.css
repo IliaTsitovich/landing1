@@ -10,6 +10,9 @@ body {
  a {
    text-decoration: none;
  }
+ @font-family: 'Yeseva One', cursive;
+ @font-family: 'Nunito Sans', sans-serif;
+
 
  .header {
     margin: 0 auto;
@@ -188,7 +191,7 @@ body {
    display: flex;
    justify-content: flex-end;
    list-style: none;
-   font-family: 'Yeseva One';
+   font-family: 'Yeseva One', Arial, Helvetica, sans-serif;
    font-style: normal;
    font-weight: 400;
    font-size: 14px;
@@ -214,8 +217,7 @@ body {
  }
 
  .infobox2 {
-   margin-top: 107px;
-   margin-bottom: 500px;
+   margin: 107px auto 414px 89px;
  }
 
  .main_info2 {
@@ -330,7 +332,7 @@ body {
    display: flex;
    align-items: center;
    justify-content: center;
-   margin: auto;
+   margin: 0 auto;
   }
 
   .center_title {
@@ -362,13 +364,12 @@ body {
   }
 
   .infobox3 {
-   margin-top: -150px;
+   top: -324px;
    position: absolute;
    z-index: 2;
    display: inline;
    justify-content: center;
    align-items: center;
-   max-width: 1440px;
   }
 
   .image3 {
@@ -379,9 +380,11 @@ body {
    width: 817px;
    height: 434px;
    box-shadow: 3px 3px 15px black;
+   margin: auto auto;
   }
   
   .overlay2 {
+   margin: auto auto;
    background-color: rgba(0, 0, 0, 0.7);
    background-size: cover;
    width: 817px;
@@ -410,6 +413,59 @@ body {
       display: flex;
       justify-content: center;
       align-items: center;
+   }
+
+   .text-section3 {
+      margin: auto auto;
+      font-family: 'Nunito Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 37px;
+      text-align: center;
+      color: #363636;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-width: 680px;
+   }
+
+   .div_input_box {
+      margin: 91px auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+   }
+
+   
+   .inp {
+      display: grid;
+      grid-template-rows: max-content;
+      border: 0;
+   }
+
+   input {
+      border-top: 0;
+      border-left: 0;
+      border-right: 0;
+      border-bottom:  1px solid rgba(54, 54, 54, 0.3);
+      width: 230px;
+      font-family: 'Nunito Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 23px;
+      color: #363636;
+   }
+   
+   
+   .text_input {
+      font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 21px;
+      color: rgba(54, 54, 54, 0.5);
    }
 
    
