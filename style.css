@@ -1189,7 +1189,7 @@ body {
       margin-top: -200px;
       z-index: 3;
       width:883px;
-      height: 445px;
+      height: 480px;
       background: #000000;
      }
 
@@ -1323,6 +1323,17 @@ body {
       margin-bottom: 34px;
      }
 
+     .button1_infobox8 {
+      color: #FFFFFF;
+      font-family: 'Nunito Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 27px;
+      text-align: center;
+      text-transform: uppercase;
+     }
+
      .title_center8 {
       position: absolute;
       z-index: 3;
@@ -1341,13 +1352,13 @@ body {
       text-align: center;
       text-transform: uppercase;
       color: #E3B873;
-      margin: 0 auto;
-      margin-bottom: 26px;
+      margin: 52px auto 26px auto;
      }
 
      .icon_social {
       display: flex;
       justify-content: center;
+      margin-bottom: 43px;
      }
 
      .icon_social .icom_email {
@@ -1529,6 +1540,7 @@ body {
       .image2 {
         position: relative;
         order: 2;
+        min-height: 100%;
       }
       
       .comp {
@@ -1765,7 +1777,7 @@ body {
         left: 0;
         margin: 0;
       }
-
+mobile-i
       .overlay6 {
         display: none;
       }
@@ -1786,6 +1798,7 @@ body {
       
       .mobile-image {
         width: 100vw;
+        min-height: 100%;
       }
 
       .infobox6 {
@@ -1877,6 +1890,7 @@ body {
         color: #FFFFFF;
         position: relative;
       }
+
       .submit-questions {
         position: relative;
       }
