@@ -911,9 +911,13 @@ body {
      }
 
      .section6 {
+      background: rgba(0, 0, 0, 0.7) url(./image/image_background_section6.png);
+      background-blend-mode: darken;
+      background-size: cover;
       position: relative;
       background-color: #FFFFFF;
-      max-width: 100vw;
+      width: 100vw;
+      height: 868px;
      }
 
      .infobox6 {
@@ -930,10 +934,8 @@ body {
      .overlay6:after {
       content: "";
       display: block;    
-      width: 100%;
-      max-width: 1440px;
-      height: 100%;   
-      max-height: 868px; 
+      width: 100vw;
+      height: 868px; 
       position: absolute;
       top: 0;      
       left: 0;   
@@ -1022,6 +1024,9 @@ body {
       grid-area: 1 / 3 / 3 / 4;
      }
 
+     .second {
+      margin-top: 36px;
+     }
 
      .section7 {
       position: relative;
@@ -1034,13 +1039,23 @@ body {
       max-width: 1263px;
       margin: 0 auto;
      }
+     .div-background_section7 {
+      background: url(./image/background_section7.png) repeat-x;
+      width: 100%;
+      height: 450px;
+      opacity: 0.05;
+     }
      
+     .div-matrix {
+      transform: matrix(-1, 0, 0, 1, 0, 0);
+     }
+
      .background_section7 {
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
       z-index: 1;
       margin: 0 auto;
-      max-width: max-content;
+      max-width: 100vw;
       position: relative;
      }
 
@@ -1273,6 +1288,15 @@ body {
      .span_input3 {
       margin: 0;
      }
+     .white-text-span {
+      font-family: 'Nunito Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 21px;
+      color: rgba(255, 255, 255, 0.5);
+     }
+
      .input_q3 {
       border-top: 0;
       border-left: 0;
@@ -1628,13 +1652,20 @@ body {
       }
 
       .main_info4 {
+        width: 100%;
         margin: 0 auto;
-        display: grid;
+        display: flex;
+        flex-direction: column;
       }
 
       .image_box {
-        margin: 0 18px;
+        width: 100%;
+        margin: 0;
         margin-bottom: 80px;
+      }
+
+      .image_box img {
+        width: 100%;
       }
 
       .info_section4 {
@@ -1675,10 +1706,9 @@ body {
       }
 
       .columns {
-        display: grid;
-        grid-template-columns: inherit;
-        grid-template-rows: auto;
-        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
         margin: 0;
         position: relative;
       }
@@ -1721,15 +1751,16 @@ body {
       }
 
       .infobox6 {
-        margin: 0 18px;
+        margin: -270px 18px -180px 18px;
         display: flex;
         position: relative;
-        margin-top: -270px;
-        margin-bottom: -180px;
+        width: 100vw;
       }
       .section6 {
         background: none;
         background: #000000;
+        height: auto;
+        display: flex;
       }
       .section7 {
         display: none;
