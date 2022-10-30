@@ -1366,7 +1366,7 @@ body {
       filter: drop-shadow(0px 20px 30px rgba(0, 0, 0, 0.15));
      }
 
-      @media screen and (min-width:2100px) {
+      @media screen and (min-width:2500px) {
 
         .infobox3 {
           margin-top: -570px;
